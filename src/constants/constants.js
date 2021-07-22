@@ -103,8 +103,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Coded macro tests for transposition errors', },
+  { year: 2019, text: 'Graduated undergrad in Economics', },
+  { year: 2020, text: "Completed University of Helsinki's MOOC with Java", },
+  { year: 2021, text: 'Finished JS Full Stack Internship w/ Tegger.IO and began sharing my work with the world', },
 ];
