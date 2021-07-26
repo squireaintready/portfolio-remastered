@@ -4,8 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 const handleClick = () =>{
-    console.log('learn more')
-    window.open('https://www.samueljo.net')
+    window.open('https://github.com/squireaintready')
   }
 
 const Hero = () => (
