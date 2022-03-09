@@ -1,4 +1,65 @@
 export const projects = [
+  {
+    title: "Loan Calculator",
+    description:
+      "Used the movie database API (TMDB) to return sorted movie objects. Reactjs for the frontend, functional components with hooks, react router, material UI, flexbox, and deployed on firebase hosting.",
+    image: 'images/loan.png',
+    tags: ['React', 'Javascript'],
+    demo: "https://squireaintready.github.io/loan-calculator/",
+    git: "https://github.com/squireaintready/loan-calculator",
+    id:1
+  },
+  {
+    title: "Defi UI/UX",
+    description:
+      "Used the movie database API (TMDB) to return sorted movie objects. Reactjs for the frontend, functional components with hooks, react router, material UI, flexbox, and deployed on firebase hosting.",
+    image: 'images/rifting.png',
+    tags: ['React', 'Javascript'],
+    demo: "https://squireaintready.github.io/rifting/",
+    git: "https://github.com/squireaintready/rifting",
+    id:2
+  },
+  {
+    title: "Simultaneous Timers",
+    description:
+      "Used Spotify's amazing API for user authentication, getting users playlists, and play a sample. Reactjs for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
+    image: 'images/timers.png',
+    tags: ['React', 'Javascript'],
+    demo: "https://squireaintready.github.io/simultaneous-timer/",
+    git: "https://github.com/squireaintready/simultaneous-timer",
+    id:3
+  },
+  {
+    title: "Hulu",
+    description:
+      "Utilized Disease.sh API to retrieve/update live data, i.e. number of new cases, total recovered, and totals deaths. Leaflet API for maps, Chart.js for data visualization, and deployed on firebase hosting.",
+    image: 'images/hulu.png',
+    tags: ['React', 'Javascript'],
+    demo: "https://hulu-clone-65a1a.web.app/",
+    git: "https://github.com/squireaintready/hulu-clone",
+    id:4
+  },
+  {
+    title: "Mizumi",
+    description:
+      "Used Spotify's amazing API for user authentication, getting users playlists, and play a sample. Reactjs for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
+    image: 'images/mizumi.png',
+    tags: ['React', 'Javascript'],
+    demo: "https://spotify-clone-3a930.web.app/",
+    git: "https://github.com/squireaintready/spotify-clone",
+    id:5
+  },
+  {
+    title: "Spotify Clone",
+    description:
+      "Used Spotify's amazing API for user authentication, getting users playlists, and play a sample. Reactjs for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
+    image: 'images/spotify.png',
+    tags: ['React', 'Javascript'],
+    demo: "https://squireaintready.github.io/mizumi-calculator/",
+    git: "https://github.com/squireaintready/mizumi-calculator",
+    id:5
+  },
+
   // {
   //   title: "Google Clone",
   //   description:
@@ -9,26 +70,6 @@ export const projects = [
   //   git: "https://github.com/squireaintready/google-clone",
   //   id:0
   // },
-  {
-    title: "Hulu Clone",
-    description:
-      "Used the movie database API (TMDB) to return sorted movie objects. Reactjs for the frontend, functional components with hooks, react router, material UI, flexbox, and deployed on firebase hosting.",
-    image: 'images/hulu.png',
-    tags: ['React', 'Javascript'],
-    demo: "https://hulu-clone-65a1a.web.app/",
-    git: "https://github.com/squireaintready/hulu-clone",
-    id:1
-  },
-  {
-    title: "Covid-19 Global Tracker",
-    description:
-      "Utilized Disease.sh API to retrieve/update live data, i.e. number of new cases, total recovered, and totals deaths. Leaflet API for maps, Chart.js for data visualization, and deployed on firebase hosting.",
-    image: 'images/covidtracker.png',
-    tags: ['React', 'Javascript'],
-    demo: "https://covid-19-tracker-31079.web.app/",
-    git: "https://github.com/squireaintready/covid-tracker",
-    id:2
-  },
   // {
   //   title: "AirBnb Clone",
   //   description:
@@ -49,16 +90,16 @@ export const projects = [
   //   git: "https://github.com/squireaintready/whatsapp-clone",
   //   id:4
   // },
-  {
-    title: "Spotify Clone",
-    description:
-      "Used Spotify's amazing API for user authentication, getting users playlists, and play a sample. Reactjs for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
-    image: 'images/spotify.png',
-    tags: ['React', 'Javascript'],
-    demo: "https://spotify-clone-3a930.web.app/",
-    git: "https://github.com/squireaintready/spotify-clone",
-    id:5
-  },
+  // {
+  //   title: "Spotify Clone",
+  //   description:
+  //     "Used Spotify's amazing API for user authentication, getting users playlists, and play a sample. Reactjs for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
+  //   image: 'images/spotify.png',
+  //   tags: ['React', 'Javascript'],
+  //   demo: "https://spotify-clone-3a930.web.app/",
+  //   git: "https://github.com/squireaintready/spotify-clone",
+  //   id:5
+  // },
   // {
   //   title: "Discord Clone",
   //   description:
@@ -69,16 +110,16 @@ export const projects = [
   //   git: "https://github.com/squireaintready/discord-clone",
   //   id:6
   // },
-  {
-    title: "Mizumi Calculator",
-    description:
-      "Developed a tip calculator for a large restaurant(50+ employees) to aid with tips/wage distribution using an in-house algorithm. Built fully with vanilla Javascript and Jquery. This was my first production project.",
-    image: 'images/calculator.png',
-    tags: ['React', 'Javascript'],
-    demo: "https://squireaintready.github.io/advancedTip/",
-    git: "https://github.com/squireaintready/advancedTip",
-    id:7
-  },
+  // {
+  //   title: "Mizumi Calculator",
+  //   description:
+  //     "Developed a tip calculator for a large restaurant(50+ employees) to aid with tips/wage distribution using an in-house algorithm. Built fully with vanilla Javascript and Jquery. This was my first production project.",
+  //   image: 'images/calculator.png',
+  //   tags: ['React', 'Javascript'],
+  //   demo: "https://squireaintready.github.io/advancedTip/",
+  //   git: "https://github.com/squireaintready/advancedTip",
+  //   id:7
+  // },
   // {
   //   title: "Slack Clone",
   //   description:
