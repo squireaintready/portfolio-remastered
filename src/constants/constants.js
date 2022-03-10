@@ -2,62 +2,62 @@ export const projects = [
   {
     title: "Loan Calculator",
     description:
-      "Used the movie database API (TMDB) to return sorted movie objects. Reactjs for the frontend, functional components with hooks, react router, material UI, flexbox, and deployed on firebase hosting.",
-    image: 'images/loan.png',
-    tags: ['React', 'Javascript'],
+      "Loan calculator returns a value based off users criteria. Parameters include Loan Amount, Loan Term, Interest Rate, and Monthly Payments. React & redux for the frontend. Deployed on gh pages.",
+    image: "images/loan.png",
+    tags: ["React", "Javascript"],
     demo: "https://squireaintready.github.io/loan-calculator/",
     git: "https://github.com/squireaintready/loan-calculator",
-    id:1
+    id: 1,
   },
   {
     title: "Defi UI/UX",
     description:
-      "Used the movie database API (TMDB) to return sorted movie objects. Reactjs for the frontend, functional components with hooks, react router, material UI, flexbox, and deployed on firebase hosting.",
-    image: 'images/rifting.png',
-    tags: ['React', 'Javascript'],
+      "Mock wallet for decentralized finance. Allows user to buy & sell defi protocols. Currently hardcoded for compoound, aave, & curve. React.js for the frontend, MaterialUI, flexbox, and deployed on gh pages.",
+    image: "images/rifting.png",
+    tags: ["React", "Javascript"],
     demo: "https://squireaintready.github.io/rifting/",
     git: "https://github.com/squireaintready/rifting",
-    id:2
+    id: 2,
   },
   {
     title: "Simultaneous Timers",
     description:
-      "Used Spotify's amazing API for user authentication, getting users playlists, and play a sample. Reactjs for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
-    image: 'images/timers.png',
-    tags: ['React', 'Javascript'],
+      "Simultaneous timers allows user to create multiple timers. Features include pause/play, reset & delete. Timers auto removes itself when completed. React.js for the frontend. Deployed on gh pages hosting.",
+    image: "images/timers.png",
+    tags: ["React", "Javascript"],
     demo: "https://squireaintready.github.io/simultaneous-timer/",
     git: "https://github.com/squireaintready/simultaneous-timer",
-    id:3
+    id: 3,
   },
   {
     title: "Hulu",
     description:
-      "Utilized Disease.sh API to retrieve/update live data, i.e. number of new cases, total recovered, and totals deaths. Leaflet API for maps, Chart.js for data visualization, and deployed on firebase hosting.",
-    image: 'images/hulu.png',
-    tags: ['React', 'Javascript'],
+      "Hulu Clone uses movie database API (TMDB) to return sorted movie objects. React.js for the frontend, functional components with hooks, react router, material UI, flexbox, and deployed on firebase hosting.",
+    image: "images/hulu.png",
+    tags: ["React", "Javascript"],
     demo: "https://hulu-clone-65a1a.web.app/",
     git: "https://github.com/squireaintready/hulu-clone",
-    id:4
+    id: 4,
   },
   {
-    title: "Mizumi",
+    title: "Tips Calculator",
     description:
-      "Used Spotify's amazing API for user authentication, getting users playlists, and play a sample. Reactjs for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
-    image: 'images/mizumi.png',
-    tags: ['React', 'Javascript'],
-    demo: "https://spotify-clone-3a930.web.app/",
-    git: "https://github.com/squireaintready/spotify-clone",
-    id:5
+      "Calculates tips distribution for a large buffet based off employees working. React.js for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
+    image: "images/mizumi.png",
+    tags: ["React", "Javascript"],
+    demo: "https://squireaintready.github.io/mizumi-calculator/",
+    git: "https://github.com/squireaintready/mizumi-calculator",
+    id: 5,
   },
   {
     title: "Spotify Clone",
     description:
-      "Used Spotify's amazing API for user authentication, getting users playlists, and play a sample. Reactjs for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
-    image: 'images/spotify.png',
-    tags: ['React', 'Javascript'],
-    demo: "https://squireaintready.github.io/mizumi-calculator/",
-    git: "https://github.com/squireaintready/mizumi-calculator",
-    id:5
+    "Spotify-clone uses spotify's amazing API for user authentication/signin, getting users playlists, and play a sample. React.js for the frontend & context API for data layering. Deployed on firebase hosting.",
+    image: "images/spotify.png",
+    tags: ["React", "Javascript"],
+    demo: "https://spotify-clone-3a930.web.app/",
+    git: "https://github.com/squireaintready/spotify-clone",
+    id: 6,
   },
 
   // {
@@ -135,17 +135,69 @@ export const projects = [
   //   description:
   //     "Frontend React JS: Hooks, Flexbox, Material UI. Firebase database and hosting.",
   //   image: 'images/.png',
-  // tags: ['React', 'Javascript'],//   
+  // tags: ['React', 'Javascript'],//
   // demo: "https://tiktok-clone-f9e09.web.app/",
   //   git: "https://github.com/squireaintready/tiktok-clone",
   // id:0
   // },
+  // {
+  //   title: "Hulu",
+  //   description:
+  //     "Used the movie database API (TMDB) to return sorted movie objects. Reactjs for the frontend, functional components with hooks, react router, material UI, flexbox, and deployed on firebase hosting.",
+  //   image: 'images/loan.png',
+  //   tags: ['React', 'Javascript'],
+  //   demo: "https://squireaintready.github.io/loan-calculator/",
+  //   git: "https://github.com/squireaintready/loan-calculator",
+  //   id:1
+  // },
+  // {
+  //   title: "Rifting",
+  //   description:
+  //     "Used the movie database API (TMDB) to return sorted movie objects. Reactjs for the frontend, functional components with hooks, react router, material UI, flexbox, and deployed on firebase hosting.",
+  //   image: 'images/rifting.png',
+  //   tags: ['React', 'Javascript'],
+  //   demo: "https://squireaintready.github.io/rifting/",
+  //   git: "https://github.com/squireaintready/rifting",
+  //   id:2
+  // },
+  // {
+  //   title: "Simultaneous Timers",
+  //   description:
+  //     "Used Spotify's amazing API for user authentication, getting users playlists, and play a sample. Reactjs for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
+  //   image: 'images/timers.png',
+  //   tags: ['React', 'Javascript'],
+  //   demo: "https://squireaintready.github.io/simultaneous-timer/",
+  //   git: "https://github.com/squireaintready/simultaneous-timer",
+  //   id:3
+  // },
+  // {
+  //   title: "Spotify Clone",
+  //   description:
+  //     "Used Spotify's amazing API for user authentication, getting users playlists, and play a sample. Reactjs for the front end with material-ui, and condescription API for data layering. Deployed on firebase hosting.",
+  //   image: 'images/mizumi.png',
+  //   tags: ['React', 'Javascript'],
+  //   demo: "https://spotify-clone-3a930.web.app/",
+  //   git: "https://github.com/squireaintready/spotify-clone",
+  //   id:5
+  // },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Coded macro tests for transposition errors', },
-  { year: 2019, text: 'Graduated undergrad in Economics', },
-  { year: 2020, text: "Completed University of Helsinki's MOOC with Java", },
-  { year: 2021, text: 'Finished JS Full Stack Internship w/ Tegger.IO and began sharing my work with the world', },
+  {
+    year: 2018,
+    text: "Finance internship; Indexed & analyzed financial reports for all U.S. municipalities",
+  },
+  { year: 2019, text: "Graduated undergrad with Economics." },
+  {
+    year: 2020,
+    text: "Completed University of Helsinki's MOOC with Java & launched myself into web development with javascript.",
+  },
+  {
+    year: 2021,
+    text: "Full-stack internship w/ Tegger.IO. Was awarded a design tenet award by the CELO foundation ",
+  },
+  {
+    year: 2022,
+    text: "Looking for a team to collaborate with to learn & grow.",
+  },
 ];
