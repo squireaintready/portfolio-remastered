@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Loan Calculator",
     description:
-      "Loan calculator returns a value based off users criteria. Parameters include Loan Amount, Loan Term, Interest Rate, and Monthly Payments. React & redux for the frontend. Deployed on gh pages.",
+      "Loan calculator returns a value based off users criteria. Parameters include Loan Amount, Loan Term, Interest Rate, and Monthly Payments. React & redux for the frontend, lottie files for animation. Deployed on gh pages.",
     image: "images/loan.png",
     tags: ["React", "Javascript"],
     demo: "https://squireaintready.github.io/loan-calculator/",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Defi UI/UX",
     description:
-      "Mock wallet for decentralized finance. Allows user to buy & sell defi protocols. Currently hardcoded for compoound, aave, & curve. React.js for the frontend, MaterialUI, flexbox, and deployed on gh pages.",
+      "Mock wallet for defi. Display balances, and allows user to buy & sell defi protocols. Currently hardcoded for compoound, aave, & curve. React.js for the frontend, MaterialUI,  and flexbox. Deployed on gh pages.",
     image: "images/rifting.png",
     tags: ["React", "Javascript"],
     demo: "https://squireaintready.github.io/rifting/",
